@@ -25,7 +25,7 @@
 
         <EditText
             android:id="@+id/toEt"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text=""
             android:paddingLeft="15dp"
@@ -51,7 +51,7 @@
 
         <EditText
             android:id="@+id/ccEt"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="15dp"
             android:inputType="textEmailAddress"
@@ -76,7 +76,7 @@
 
         <EditText
             android:id="@+id/bccEt"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="15dp"
             android:inputType="textEmailAddress"
@@ -93,7 +93,7 @@
         app:layout_constraintTop_toBottomOf="@id/Ll3">
 
         <TextView
-            android:id="@+id/sbujectTv"
+            android:id="@+id/subjectTv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Subject:"
@@ -101,7 +101,7 @@
 
         <EditText
             android:id="@+id/subjectEt"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="15dp"
             android:textSize="22sp" />
@@ -118,14 +118,14 @@
 
         <TextView
             android:id="@+id/msgTv"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Message:"
             android:textSize="22sp" />
 
         <EditText
             android:id="@+id/msgEt"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:inputType="textMultiLine"
